@@ -1,0 +1,10 @@
+DROP FUNCTION IF EXISTS public.track_event(text, text, text, text, jsonb);
+DROP FUNCTION IF EXISTS public.track_ensure_lead(text, text, text, text, text, text, text, text, text, text);
+DROP FUNCTION IF EXISTS public.track_status(text, text, text);
+DROP FUNCTION IF EXISTS public.track_quiz(text, text, text, text);
+DROP FUNCTION IF EXISTS public.track_identify(text, text, text, text);
+DROP TABLE IF EXISTS public.lead_events CASCADE;
+DROP TABLE IF EXISTS public.quiz_answers CASCADE;
+DROP TABLE IF EXISTS public.leads CASCADE;
+DROP TABLE IF EXISTS public.campaigns CASCADE;
+DROP TABLE IF EXISTS public.funnel_settings CASCADE;
